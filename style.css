@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    text-align: center;
+}
+
+.change-btn {
+    padding: 15px 30px;
+    background-color: black;
+    color: rgb(225, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: all ease-in-out 0.25s; 
+}
+
+.change-btn:hover {
+    background-color: brown;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-value {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
